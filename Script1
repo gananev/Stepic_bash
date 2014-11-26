@@ -1,12 +1,21 @@
+ type: programming
+  search_term: bash
+  color: "#89e051"
+  aliases:
+  - sh
+  - bash
+  - zsh
+  extensions:
+  - .sh
+  - .bash
+  - .bats
+  - .cgi
+  - .command
+  - .fcgi
+  - .ksh
+  - .tmux
+  - .zsh
 #!/bin/bash
-# linguist — detect language type for a file, or, given a directory, determine language breakdown
-#     usage: linguist <path> [<--breakdown>]
-
-require 'linguist/file_blob'
-require 'linguist/language'
-require 'linguist/repository'
-require 'rugged'
-
 name="1"
 age="1"
 while [[ -n $name && $age -ne 0 ]]
