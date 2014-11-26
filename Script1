@@ -1,20 +1,3 @@
- type: programming
-  search_term: bash
-  color: "#89e051"
-  aliases:
-  - sh
-  - bash
-  - zsh
-  extensions:
-  - .sh
-  - .bash
-  - .bats
-  - .cgi
-  - .command
-  - .fcgi
-  - .ksh
-  - .tmux
-  - .zsh
 #!/bin/bash
 name="1"
 age="1"
