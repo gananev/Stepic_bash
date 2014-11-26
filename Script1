@@ -1,4 +1,12 @@
 #!/bin/bash
+# linguist — detect language type for a file, or, given a directory, determine language breakdown
+#     usage: linguist <path> [<--breakdown>]
+
+require 'linguist/file_blob'
+require 'linguist/language'
+require 'linguist/repository'
+require 'rugged'
+
 name="1"
 age="1"
 while [[ -n $name && $age -ne 0 ]]
